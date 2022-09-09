@@ -9,13 +9,38 @@ body {
 }
 header, section {
     padding: 20px;
+    
 }
 p, li {
     line-height: 1.5em;
 }
 
 #inspiration {
-    background-color: #F0F0F0;
+    background-color: #00a7e1;
     padding-top: 40px;
     padding-bottom: 40px;
+    font-size: 30px;
+    color: azure;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+#homework {
+    background-color: #003459;
+    font-size: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:azure
+}
+#tutorials {
+    font-size: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1c7293;
+    color: azure;
+}
+h1 {
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+
 }
