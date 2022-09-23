@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 33% 33% 33%; 
+    grid-template-rows: 33% 30% 30%;
+    justify-content: space-between;
+}
+
+section {
+    border: solid 4px orangered;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    
+}
+
+section {
+    border: solid 4px orangered;
+    grid-row-start: 1;
+    grid-column-start: 3;
+    grid-row-end: span 2;
+}
